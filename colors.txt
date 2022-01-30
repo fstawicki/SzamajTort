@@ -1,0 +1,15 @@
+#114127 green
+
+#F1D7D8 pink
+shades pink:
+#a99797 30%
+#796c6c 50%
+
+complimentary color torquise
+#d7f1f0
+
+
+#879085 complewmentary light green
+#70947f
+
+#b5aaa4 beige

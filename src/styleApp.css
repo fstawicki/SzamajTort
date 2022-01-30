@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    background-color: saddlebrown;
+}
+
+.App{
+    
+    background-image: url("../images/bgimage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroOverlay{
+    background-color: #fff;
+}
