@@ -6,7 +6,6 @@
     align-items: flex-start;
     justify-content: space-between;
 
-    /* border-bottom: 4px #F1D7D8 solid; */
 }
 
 .left{
@@ -14,13 +13,9 @@
     background-repeat:no-repeat;
     background-size: contain;
     margin-left: 1rem;
-    
-    /* margin: 0.5rem 0 0 0.5rem; */
-    
     height: 100%;
     width: 20%;
 }
-
 
 .right{
     height: 100%;
