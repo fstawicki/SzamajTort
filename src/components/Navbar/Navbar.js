@@ -7,7 +7,7 @@ const Navbar = (props) => {
     return(
         <nav className={styles.navbar}>
             <div className={styles.left}>
-                <img className={styles.logoImage} src="./logo.jpg" alt="logo" />
+                
             </div>
             <div className={styles.right}>
                 <ul className={styles.list}>

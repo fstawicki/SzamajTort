@@ -1,3 +1,8 @@
+Simple website for pastry shop created with react.
+
+Styling done using css modules.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

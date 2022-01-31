@@ -1,60 +1,58 @@
 .navbar{
     height: 15vh;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
 
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 
-    border-bottom: 4px #F1D7D8 solid;
-
-    
-
+    /* border-bottom: 4px #F1D7D8 solid; */
 }
 
 .left{
-    background-image: url("./logo.jpg");
+    background-image: url("../../../images/logo.jpg");
+    background-repeat:no-repeat;
+    background-size: contain;
+    margin-left: 1rem;
+    
+    /* margin: 0.5rem 0 0 0.5rem; */
+    
     height: 100%;
+    width: 20%;
 }
-
-.logoImage{
-    width: 30vw;
-    height: 300px;
-}
-
-
-
 
 
 .right{
-    width: 40%;
+    height: 100%;
+    width: 50%;
+
     font-size: 1.2rem;
-
-
 }
 
 .list{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 15vh;
+    height: 100%;
     
 }
 
 .listItem{
     list-style: none;
-    
-    
 }
 
 .listItem a{
-    cursor: pointer;
+    padding: 0.4rem;
+    border-bottom: 1px solid transparent;
+
     text-decoration: none;
     text-transform: uppercase;
-    
-    padding: 0.4rem;
-    
-    
-    
-    color: azure;
+    color: white;
+
+    transition: 0.35s ease;
+}
+
+.listItem a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
 }
