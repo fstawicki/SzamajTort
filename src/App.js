@@ -1,4 +1,5 @@
-import HeroPage from "./components/HeroPage";
+import About from "./components/AboutUs/About";
+import HeroPage from "./components/HeroPage/HeroPage";
 import Navbar from "./components/Navbar/Navbar";
 import "./styleApp.css";
 
@@ -11,6 +12,7 @@ function App() {
       <HeroPage> 
         <Navbar />
       </HeroPage>
+      <About />
     </div>
   );
 }

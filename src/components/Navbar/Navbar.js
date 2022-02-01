@@ -7,7 +7,7 @@ const Navbar = (props) => {
     return(
         <nav className={styles.navbar}>
             <div className={styles.left}>
-                
+            <a href="#"></a>
             </div>
             <div className={styles.right}>
                 <ul className={styles.list}>
