@@ -37,7 +37,8 @@
     
 }
 
-.listItem{
+.listItem,
+.listItemBtn{
     list-style: none;
 }
 
@@ -51,6 +52,31 @@
 
     transition: 0.35s ease;
 }
+
+.listItemBtn{
+    transition: 0.35s ease;
+}
+
+.btn{
+    background-color: #d12727;
+    border: none;
+}
+
+.btn a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 0.8rem 0.5rem;
+    font-size: 1.2rem;
+    transition: 0.35s ease;
+}
+
+.btn a:hover{
+    background-color: rgba(0,0,0, 0.2) ;
+}
+
+
+
 
 .listItem a:hover{
     cursor: pointer;
