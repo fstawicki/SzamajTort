@@ -1,0 +1,79 @@
+.contactDiv{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+    
+}
+
+.container{
+    display: flex;
+    padding: 1rem;
+
+    
+    width: 60%;
+    border: 1px solid #e49c9c;
+}
+
+
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: brown;
+} 
+ 
+.leftImg{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../images/panda.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.right{
+    width: 50%;
+    background-color: #edd1cf;
+
+}
+
+.right h2{
+    font-size: 2rem;
+    margin: 4rem 0;
+    text-align: center;
+    color: #114127;
+
+}
+
+.right .contactList{
+    font-size: 1.4rem;
+    margin: 0 3rem;
+    list-style: none;
+}
+
+.right .contactList .contactItem{
+    margin-top: 1rem;
+
+
+}
+
+.right .contactList .contactItem:hover,
+.right .contactList .contactItem a:hover{
+    color: beige;
+    transition: 0.45s ease;
+    cursor: pointer;
+}
+
+.right .contactList .contactItem i{
+    margin-right: 1rem;
+}
+
+.right .contactList .contactItem a{
+    text-decoration: none;
+    color: black;
+}

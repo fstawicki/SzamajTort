@@ -12,6 +12,13 @@ const About = (props) => {
                 <h2>O nas</h2>
                 <p>Artystyczne torty, ciastka i słodkie stoły na każdą okazję, które cieszą oko i kubki smakowe.
 Nieszablonowe projekty, od eterycznego minimalizmu po bogato zdobione, wielopiętrowe kompozycje, które zadowolą największych słodyczowych sceptyków.</p>
+                <div className={styles.author}>
+                    Kasia
+                </div>
+                {/* <div className="callDiv">
+                    <button className={styles.btn}></button>
+                </div> */}
+                
             </div>
         </div>
     )

@@ -1,0 +1,55 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #114127;
+}
+
+.middle{
+    background-image: url('../../../images/logo.jpg');
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10%;
+}
+
+
+.left{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left p{
+    padding: 0.2rem 0;
+}
+
+.right{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left,
+.right{
+    padding: 1rem 0;
+}
+
+.right i{
+    margin-right: 1rem;
+}
+
+.left,
+.right *{
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding-top: 0.3rem;
+    color: #edd1cf;
+
+}

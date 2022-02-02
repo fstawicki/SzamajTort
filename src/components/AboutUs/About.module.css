@@ -38,9 +38,18 @@
 
 .right h2{
     color: #114127;
-    margin-bottom: 1rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 .right p{
     color: #114127;
+    text-align: justify;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.right .author{
+    font-size: 1.4rem;
+    margin: 2rem 0 0 auto;
 }
