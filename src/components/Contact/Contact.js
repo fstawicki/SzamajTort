@@ -1,11 +1,6 @@
 import react from "react";
 import styles from './Contact.module.css';
 
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAt } from "@fortawesome/free-solid-svg-icons";
-import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
-import {  } from "@fortawesome/free-solid-svg-icons";
 const Contact = (props) => {
 
     return(

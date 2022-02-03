@@ -29,7 +29,7 @@
 .leftImg{
     width: 100%;
     height: 100%;
-    background-image: url('../../../images/paddington_close.jpg');
+    background-image: url('../../images/paddington_close.jpg');
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,6 +57,7 @@
 }
 
 .right .contactList .contactItem{
+    
     margin-top: 1rem;
 
 

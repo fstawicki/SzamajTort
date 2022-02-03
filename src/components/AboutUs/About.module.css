@@ -1,3 +1,8 @@
+@import url(//db.onlinewebfonts.com/c/445a802ba2f4a7a30ddcafc8f9c84904?family=AngleciaProTitleW01-Regular);
+
+
+
+
 .container{
     display: flex;
     height: 100vh;
@@ -15,7 +20,7 @@
 }
 
 .leftImg{
-    background-image: url("../../../images/creators.jpg");
+    background-image: url("../../images/creators.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -25,6 +30,7 @@
 }
 
 .right{
+    
     width: 50%;
     display: flex;
     align-items: center;
@@ -37,6 +43,7 @@
 }
 
 .right h2{
+    font-family: 'AngleciaProTitleW01-Regular';
     color: #114127;
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -45,11 +52,12 @@
 .right p{
     color: #114127;
     text-align: justify;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-style: italic;
 }
 
 .right .author{
+    
     font-size: 1.4rem;
     margin: 2rem 0 0 auto;
 }

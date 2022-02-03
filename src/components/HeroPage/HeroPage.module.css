@@ -1,5 +1,5 @@
 .firstPage{
-    background-image: url("../../../images/bgimage2.jpg");
+    background-image: url("../../images/bgimage2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,7 +22,7 @@
 }
 
 .heroBannerImg{
-    background-image: url("../../../images/logo.jpg");
+    background-image: url("../../images/logo.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

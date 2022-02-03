@@ -1,0 +1,4 @@
+.galeryContainer{
+    display: flex;
+    flex-direction: row;
+}
