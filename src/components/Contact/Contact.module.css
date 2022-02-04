@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 3rem 0;
+    margin: 6rem 0;
     
 }
 
@@ -29,7 +29,7 @@
 .leftImg{
     width: 100%;
     height: 100%;
-    background-image: url('../../images/paddington_close.jpg');
+    background-image: url('../../images/enterance01.jpg');
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,32 +42,35 @@
 
 }
 
-.right h2{
+.heading{
     font-size: 2rem;
-    margin: 4rem 0;
+    margin: 2rem 0 1rem 0;
     text-align: center;
     color: #114127;
 
 }
 
+.right .contactItemAddress{
+    margin: 0.3rem;
+}
+
 .right .contactList{
     font-size: 1.4rem;
-    margin: 0 3rem;
+    margin: 0 2rem;
     list-style: none;
 }
 
 .right .contactList .contactItem{
     
-    margin-top: 1rem;
+    margin-top: 0.6rem;
 
 
 }
 
 .right .contactList .contactItem:hover,
 .right .contactList .contactItem a:hover{
-    color: beige;
-    transition: 0.45s ease;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .right .contactList .contactItem i{

@@ -13,30 +13,31 @@ const Galery = (props) => {
         const { current } = scrollRef;
 
         if(direction === 'left'){
-            current.scrollLeft -= 300;
+            current.scrollLeft -= 325;
         }else{
-            current.scrollLeft += 300;
+            current.scrollLeft += 325;
         }
     }
 
-    const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04, images.gallery05, images.gallery06, images.gallery07, images.gallery08];
+    const galleryImages = [images.gallery03, images.gallery02, images.gallery01, images.gallery04, images.gallery05, images.gallery06, images.gallery07, images.gallery08];
+
 
 
     return(
-        <div className={styles.galeryContainer}>
-            <div className={styles.left}>
+        <div className={styles.gallery}>
+            <div className={styles.galleryleft}>
                 <h2>Galeria</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ducimus eaque cupiditate iusto similique ipsum culpa architecto veritatis vitae autem?</p>
+                <p>Mordo obczaj nasze słodkości</p>
             </div>
-            <div className={styles.right}>
-                <div className={styles.images} ref={scrollRef}>
+            <div className={styles.galleryright}>
+                <div className={styles.galleryright_container} ref={scrollRef}>
                     {galleryImages.map((image, index) => (
-                        <div className={styles.imageMap} key={`galery-image-${index + 1}`}>
+                        <div className={styles.galleryright_card} key={`galery-image-${index + 1}`}>
                             <img src={image} alt="galery" />
                         </div>
                     ))}
                 </div>
-                <div className={styles.imageArrows}>
+                <div className={styles.galleryright_arrows}>
                     <BsArrowLeftShort className={styles.arrowIcon} onClick={() => scroll('left')} />
                     <BsArrowRightShort className={styles.arrowIcon} onClick={() => scroll('right')} />
                 </div>

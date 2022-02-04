@@ -12,8 +12,8 @@ const Navbar = (props) => {
             <div className={styles.right}>
                 <ul className={styles.list}>
                     <li className={styles.listItem}><a href="#">Aktualności</a></li>
-                    <li className={styles.listItem}><a href="#">O Nas</a></li>
-                    <li className={styles.listItem}><a href="#">Galeria</a></li>
+                    <li className={styles.listItem}><a href="">O Nas</a></li>
+                    <li className={styles.listItem}><a href="#gallery">Galeria</a></li>
                     <li className={styles.listItem}><a href="#">Kontakt</a></li>
                     <li className={styles.listItemBtn}>
                     <button className={styles.btn}><a href="https://forms.gle/3B1aczqwx2XDw6mw7">ZŁÓŻ ZAMÓWIENIE</a></button>
