@@ -46,7 +46,7 @@
     font-family: 'AngleciaProTitleW01-Regular';
     color: #114127;
     font-size: 3rem;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .right p{
@@ -60,4 +60,47 @@
     
     font-size: 1.4rem;
     margin: 2rem 0 0 auto;
+}
+
+@media (max-width: 1000px){
+    .container{
+        flex-direction: column;
+        height: max-content;
+        background-color: #F1D7D8;
+        padding: 3rem 0 1rem 0;
+    }
+
+
+    .left{
+        height: 50vh;
+    }
+    .leftImg{
+        background-size: cover;
+        background-position: top;
+    }
+
+    .left,
+    .right{
+        width: 100%;
+        padding: 0;
+    }
+
+    .right{
+        padding: 2rem;
+    }
+
+    .right h2{
+        font-size: 2.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .right p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .right .author{
+        font-size: 1.2rem;
+        margin: 0.8rem 0 0 auto;
+    }
 }

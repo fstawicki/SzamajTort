@@ -1,4 +1,3 @@
-import react from "react";
 import styles from './About.module.css';
 
 
@@ -6,7 +5,8 @@ const About = (props) => {
     return(
         <div className={styles.container}>
             <div className={styles.left}>
-                <div className={styles.leftImg}></div>
+                <div className={styles.leftImg}>
+                </div>
             </div>
             <div className={styles.right}>
                 <h2>O nas</h2>
@@ -15,9 +15,6 @@ Nieszablonowe projekty, od eterycznego minimalizmu po bogato zdobione, wielopię
                 <div className={styles.author}>
                     Kasia
                 </div>
-                {/* <div className="callDiv">
-                    <button className={styles.btn}></button>
-                </div> */}
                 
             </div>
         </div>
