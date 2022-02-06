@@ -28,3 +28,27 @@
 .btn a:hover{
     background-color: rgba(0,0,0, 0.3) ;
 }
+
+
+@media (max-width: 1000px){
+    .container{
+        height: 30vh;
+    }
+    .btn a{
+        font-size: 1.2rem;
+        padding: 1.8rem 2rem;
+    }
+
+}
+
+
+@media(max-width: 500px){
+
+    .container{
+        height: 30vh;
+    }
+    .btn a{
+        font-size: 1.2rem;
+        padding: 1rem 1.5rem;
+    }
+}

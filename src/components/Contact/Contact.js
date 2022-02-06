@@ -10,7 +10,7 @@ const Contact = (props) => {
                 <div className={styles.leftImg}></div>
             </div>
             <div className={styles.right}>
-                <h2 className={styles.heading}>Odwiedz Nas</h2>
+                <h2 className={styles.heading}>Odwiedź Nas</h2>
                 <ul className={styles.contactList}>
                 <li className={styles.contactItemAddress}>
                     Cukiernia Szamaj Tort
@@ -28,13 +28,13 @@ const Contact = (props) => {
                     Niedziela: 11 - 16
                     </li>
                     <li className={styles['contactItemAddress']}>
-                    <h2 className={styles.heading}>Skontaktuj Się z Nami</h2>
+                    <h2 className={styles.heading2}>Skontaktuj Się z Nami</h2>
                     </li>
                     <li className={styles.contactItem}>
-                        <i class="fas fa-envelope"></i>Mail: szamajtort@gmail.com
+                        <i class="fas fa-envelope"></i>szamajtort@gmail.com
                     </li>
                     <li className={styles.contactItem}>
-                        <i class="fas fa-phone"></i>Telefon: 660 387 232
+                        <i class="fas fa-phone"></i>660 387 232
                     </li>
                     <li className={styles.contactItem}>
                         <a href="https://www.facebook.com/szamajtort">

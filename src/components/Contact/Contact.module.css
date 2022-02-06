@@ -1,5 +1,4 @@
 .contactDiv{
-    height: 60vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -10,8 +9,6 @@
 .container{
     display: flex;
     padding: 1rem;
-
-    
     width: 60%;
     border: 1px solid #e49c9c;
 }
@@ -23,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    background-color: brown;
+    
 } 
  
 .leftImg{
@@ -39,19 +36,24 @@
 .right{
     width: 50%;
     background-color: #edd1cf;
+    padding: 3rem 0;
 
 }
 
-.heading{
+.heading,
+.heading2{
     font-size: 2rem;
-    margin: 2rem 0 1rem 0;
     text-align: center;
     color: #114127;
+    padding-bottom: 1rem
+}
 
+.heading2{
+    padding-top: 2rem;
 }
 
 .right .contactItemAddress{
-    margin: 0.3rem;
+    margin-top: 0.6rem;
 }
 
 .right .contactList{
@@ -61,9 +63,7 @@
 }
 
 .right .contactList .contactItem{
-    
     margin-top: 0.6rem;
-
 
 }
 
@@ -80,4 +80,56 @@
 .right .contactList .contactItem a{
     text-decoration: none;
     color: black;
+}
+
+
+@media (max-width: 1500px){
+    .contactDiv{
+        margin: 3rem 0;
+    }
+
+}
+
+@media (max-width: 1200px){
+
+    .container{
+        width: 60%;
+    }
+
+    .left{
+        display: none;
+    }
+    .right{
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px){
+    .container{
+        width: 80%;
+    }
+    
+}
+
+
+@media (max-width: 560px){
+
+    .contactDiv{
+        margin-top: 4rem;
+    }
+
+    .container{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        border: none;
+    }
+
+    .left{
+        display: none;
+    }
+
+    .right{
+        width: 100%;
+    }
 }

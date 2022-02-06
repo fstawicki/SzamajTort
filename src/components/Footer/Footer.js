@@ -9,8 +9,8 @@ const Footer = () =>{
                 <p>Weekendowa Cukiernia Szamaj Tort</p>
                 <p>Sobota: 11 - 18</p>
                 <p>Niedziela: 11 - 16</p>
-                <p>Bolesława Chrobrego 12, 02-479, Warszawa</p>
-                <p>website created by Filip Stawicki</p>
+                <p>Bolesława Chrobrego 12</p>
+                <p>02-479, Warszawa</p>
             </div>
             <div className={styles.middle}>
                 
@@ -32,8 +32,6 @@ const Footer = () =>{
                         <i class="fab fa-instagram-square"></i>Instagram
                     </a>
                 </p>
-                <p></p>
-                <p></p>
             </div>
         </div>
     )

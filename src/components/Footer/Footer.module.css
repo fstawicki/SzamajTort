@@ -53,3 +53,30 @@
     color: #edd1cf;
 
 }
+
+@media (max-width: 1600px){
+
+    .middle{
+        width: 30%;
+    }
+
+}
+
+
+@media (max-width: 900px){
+    .footer{
+        flex-direction: column;
+    }
+
+    .left,
+    .middle,
+    .right{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .middle{
+        height: 25vh;
+        background-size: contain;
+    }
+}
