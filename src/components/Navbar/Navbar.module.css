@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/445a802ba2f4a7a30ddcafc8f9c84904?family=AngleciaProTitleW01-Regular);
+
 
 
 
@@ -40,11 +42,15 @@
 }
 
 .listItem,
-.listItemBtn{
+.listItemBtn,
+.listItemSmall,
+.listItemSmallLast{
     list-style: none;
 }
 
-.listItem a{
+.listItem a,
+.listItemSmall a,
+.listItemSmallLast a{
     padding: 0.4rem;
     border-bottom: 1px solid transparent;
 
@@ -62,6 +68,7 @@
 .btn{
     background-color: #d12727;
     border: none;
+    
 }
 
 .btn a{
@@ -74,7 +81,7 @@
 }
 
 .btn a:hover{
-    background-color: rgba(0,0,0, 0.2) ;
+    background-color: rgba(0,0,0, 0.3) ;
 }
 
 
@@ -83,6 +90,99 @@
 .listItem a:hover{
     cursor: pointer;
     border-bottom: 1px solid white;
+}
+
+
+.navbarSmallscreen{
+    display: none;
+}
+
+
+.hamburgerIcon{
+    font-size: 4rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: #F1D7D8;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.smallscreenOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../images/banner3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s ease;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    z-index: 5;
+
+}
+
+
+.listSmall{
+    font-size: 1.8rem;
+}
+
+.listItemSmall{
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.05rem;
+    
+
+
+}
+
+
+
+
+
+.listItemSmall a,
+.listItemSmallLast a{
+    color: #114127;
+    font-family: 'AngleciaProTitleW01-Regular';
+
+    border-bottom: 1px solid transparent;
+    transition: 0.3s ease;
+}
+
+.listItemSmallLast a{
+    color: red;
+}
+
+.listItemSmall a:hover{
+    border-bottom: 1px solid #114127;
+}
+
+.listItemSmallLast a:hover{
+    border-bottom: 1px solid red;
+}
+
+
+.overlayCloseDiv{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 1rem 1rem;
+    background-color: white;
+    border: 3px solid #114127;
+}
+
+.overlayClose{
+    
+    font-size: 4rem;
+    color: red;
+    cursor: pointer;
 }
 
 
@@ -99,7 +199,17 @@
 }
 
 @media (max-width: 1024px){
-    .navbar > *{
+    .navbar .left,
+    .navbar .right{
         display: none;
     }
+
+    .navbarSmallscreen{
+        display: flex;
+    }
 }
+
+
+
+
+    
