@@ -63,7 +63,7 @@
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 930px){
     .footer{
         flex-direction: column;
     }
@@ -78,5 +78,10 @@
     .middle{
         height: 25vh;
         background-size: contain;
+    }
+
+    .left,
+    .right *{
+        font-size: 1.3rem;
     }
 }

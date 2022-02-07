@@ -90,10 +90,17 @@
 
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1215px){
 
     .container{
-        width: 60%;
+        width: 65%;
+    }
+
+    .right h2{
+        font-size: 2.8rem;
+    }
+    .right li{
+        font-size: 1.5rem;
     }
 
     .left{
@@ -104,15 +111,22 @@
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 900px){
     .container{
         width: 80%;
+    }
+
+    .right h2{
+        font-size: 2.6rem;
+    }
+    .right li{
+        font-size: 1.3rem;
     }
     
 }
 
 
-@media (max-width: 560px){
+@media (max-width: 700px){
 
     .contactDiv{
         margin-top: 4rem;
@@ -120,16 +134,19 @@
 
     .container{
         width: 100%;
-        flex-direction: column;
         padding: 0;
         border: none;
     }
 
-    .left{
-        display: none;
+}
+
+@media (max-width: 450px){
+    .right h2{
+        font-size: 2.rem;
+    }
+    .right li{
+        font-size: 1.3rem;
     }
 
-    .right{
-        width: 100%;
-    }
+
 }

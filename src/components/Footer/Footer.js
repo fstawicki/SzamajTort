@@ -6,7 +6,7 @@ const Footer = () =>{
     return(
         <div className={styles.footer}>
             <div className={styles.left}>
-                <p>Weekendowa Cukiernia Szamaj Tort</p>
+                <p>Szamaj Tort</p>
                 <p>Sobota: 11 - 18</p>
                 <p>Niedziela: 11 - 16</p>
                 <p>Bolesława Chrobrego 12</p>

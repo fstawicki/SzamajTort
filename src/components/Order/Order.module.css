@@ -29,8 +29,19 @@
     background-color: rgba(0,0,0, 0.3) ;
 }
 
-
 @media (max-width: 1000px){
+    .container{
+        height: 30vh;
+    }
+    .btn a{
+        font-size: 1.8rem;
+        padding: 2.2rem 3rem;
+    }
+
+}
+
+
+@media (max-width: 750px){
     .container{
         height: 30vh;
     }

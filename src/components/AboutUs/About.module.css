@@ -16,7 +16,7 @@
     justify-content: center;
     
     /* !!!!!!!!! change */
-    padding: 9rem;
+    padding: 7rem;
 }
 
 .leftImg{
@@ -38,7 +38,7 @@
     flex-direction: column;
 
     /* !!!!!!!!! change */
-    padding: 9rem;
+    padding: 7rem;
     background-color: #F1D7D8;
 }
 
@@ -62,17 +62,26 @@
     margin: 2rem 0 0 auto;
 }
 
+@media (max-width: 1350px){
+    .left,
+    .right{
+        padding: 5rem;
+
+    }
+}
+
+
 @media (max-width: 1000px){
     .container{
         flex-direction: column;
         height: max-content;
         background-color: #F1D7D8;
-        padding: 3rem 0 1rem 0;
+        padding-bottom: 1rem;
     }
 
 
     .left{
-        height: 50vh;
+        height: 60vh;
     }
     .leftImg{
         background-size: cover;
@@ -90,17 +99,32 @@
     }
 
     .right h2{
-        font-size: 2.2rem;
+        font-size: 3rem;
         padding-bottom: 1rem;
     }
 
     .right p{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         text-align: center;
     }
 
     .right .author{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         margin: 0.8rem 0 0 auto;
     }
+}
+
+@media (max-width: 600px){
+    .right h2{
+        font-size: 2.8rem;
+    }
+
+    .right p{
+        font-size: 1.4rem;
+    }
+
+    .right .author{
+        font-size: 1.4rem;
+    }
+
 }
