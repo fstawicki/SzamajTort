@@ -1,8 +1,8 @@
 import React from "react";
-import styles from './Galery.module.css';
+import styles from './Gallery.module.css';
 import { images } from "../../constants";
 
-import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
 
 const Galery = (props) => {
@@ -24,7 +24,7 @@ const Galery = (props) => {
 
 
     return(
-        <div className={styles.gallery}>
+        <div id="Gallery" className={styles.gallery}>
             <div className={styles.galleryleft}>
                 <h2>Galeria</h2>
                 <p>Mordo obczaj nasze słodkości</p>

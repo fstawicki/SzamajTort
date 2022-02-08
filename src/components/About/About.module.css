@@ -62,6 +62,8 @@
     margin: 2rem 0 0 auto;
 }
 
+
+
 @media (max-width: 1350px){
     .left,
     .right{
@@ -126,5 +128,17 @@
     .right .author{
         font-size: 1.4rem;
     }
+
+}
+
+
+
+@media only screen and (max-device-width: 950px) 
+                   and (max-device-height: 500px) 
+                   and (orientation: landscape) {
+
+                .left{
+                    height: 80vh;
+                }
 
 }

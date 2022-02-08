@@ -3,7 +3,7 @@ import styles from './About.module.css';
 
 const About = (props) => {
     return(
-        <div className={styles.container}>
+        <div id='About' className={styles.container}>
             <div className={styles.left}>
                 <div className={styles.leftImg}>
                 </div>

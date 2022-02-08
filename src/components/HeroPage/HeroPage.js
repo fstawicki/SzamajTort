@@ -9,14 +9,20 @@ const HeroPage = (props) => {
         <div className={styles.firstPage}>
         {props.children}
             <div className={styles.heroOverlay}>
+
+
+
                 <div className={styles.heroBanner}>
                     <div className={styles.heroBannerImg}>
 
                     </div>
                     <div className={styles.btnDiv}>
-                    <button className={styles.btn}>POZNAJ NAS</button>
+                    <a className={styles.btn} href="#About">POZNAJ NAS</a>
                     </div>
                 </div>
+
+
+                
             </div>
         </div>
     )

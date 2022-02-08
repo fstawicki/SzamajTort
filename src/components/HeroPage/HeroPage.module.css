@@ -17,11 +17,12 @@
 }
 
 .heroBanner{
-    height: 50%;
-    width: 25%;
+    height: 60%;
     margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .heroBannerImg{
@@ -30,44 +31,99 @@
     background-size: contain;
     background-position: center;
     
-    height: 80%;
-    width: 100%;
+    height: 400px;
+    width: 400px;
 }
 
 .btnDiv{
-    margin-top: 3rem;
-    height: 20%;
+    margin-top: 5rem;
   justify-content: center;
-  align-items: flex-end;
 }
 
 .btn{
-    font-size: 1.2rem;
-    color: white;
-    padding: 0.9rem 3rem;
+    
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid #F1D7D8;
     transition: 0.45s ease;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #F1D7D8;
 }
 
 .btn:hover{
     cursor: pointer;
-    background-color: pink;
+    background-color: #F1D7D8;
     color: #114127;
 }
 
 
-@media (max-width: 1024px){
 
-    .heroBanner{
-        width: 50%;
-    }
+
+
+@media (max-width: 1023px){
+
     .btnDiv{
-        margin-top: 2rem;
+        margin-top: 6rem;
+      justify-content: center;
+    }
+    
+
+.btn{
+    padding: 2rem 4rem;
+    font-size: 1.8rem;
+}
+
+} 
+
+@media (max-width: 600px){
+
+    .heroBannerImg{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .btn{
+        padding: 1.2rem 2.5rem;
+        font-size: 1.2rem;
     }
 
-    .btn{
-        font-size: 1rem;
-        padding: 0.9 2rem;
+    .btnDiv{
+        margin-top: 3rem;
     }
+}
+
+
+@media (max-width: 380px){
+
+    .heroBannerImg{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .btn{
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    .btnDiv{
+        margin-top: 3rem;
+    }
+}
+
+
+
+@media only screen and (max-device-width: 950px) 
+                   and (max-device-height: 500px) 
+                   and (orientation: landscape) {
+
+
+        .heroBannerImg{
+            width: 200px;
+            height: 200px;
+        }
+
+        .btnDiv{
+            display: none;
+        }
 }

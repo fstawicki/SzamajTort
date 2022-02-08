@@ -1,10 +1,10 @@
-import react from "react";
+import React from "react";
 import styles from './Contact.module.css';
 
 const Contact = (props) => {
 
     return(
-        <div className={styles.contactDiv}>
+        <div id="Contact" className={styles.contactDiv}>
             <div className={styles.container}>
             <div className={styles.left}>
                 <div className={styles.leftImg}></div>

@@ -63,3 +63,13 @@
         padding: 1rem 1.5rem;
     }
 }
+
+@media only screen and (max-device-width: 950px) 
+                   and (max-device-height: 500px) 
+                   and (orientation: landscape) {
+
+
+        .container{
+            height: 50vh;
+        }
+}
