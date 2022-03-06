@@ -14,10 +14,8 @@ const Navbar = (props) => {
     useEffect(() => {
         setTimeout(() => {
             setToggleNews(true);
-        }, 1500);
+        }, 1200);
     },[])
-
-    
 
     // while(toggleNews === true){
         
@@ -33,9 +31,7 @@ const Navbar = (props) => {
             </div>
             <div className={styles.right}>
                 <ul className={styles.list}>
-                    <li className={styles.listItem}><a href="#" onClick={() => {
-                        setToggleNews(true);
-                    }}>Aktualności</a></li>
+                    <li className={styles.listItem}><a href="#" onClick={() => {setToggleNews(true) }}>Aktualności</a></li>
                     <li className={styles.listItem}><a href="#About">O Nas</a></li>
                     <li className={styles.listItem}><a href="#Gallery">Galeria</a></li>
                     <li className={styles.listItem}><a href="#Contact">Kontakt</a></li>
@@ -47,19 +43,13 @@ const Navbar = (props) => {
             <News trigger={toggleNews} setTrigger={setToggleNews}/>
             <div className={styles.navbarSmallscreen}>
                 {!toggleNews && (
-
-                    <GiHamburgerMenu className={styles.hamburgerIcon} onClick={() => {  
-                        setToggleMenu(true);
-                    }} />
-
+                    <GiHamburgerMenu className={styles.hamburgerIcon} onClick={() => {setToggleMenu(true) }} />
                 )}
                 {toggleMenu && (
                 <div className={styles.smallscreenOverlay}>
                     <div className={styles.overlayCloseDiv}>
 
-                <AiOutlineClose className={styles.overlayClose} onClick={() => {
-                    setToggleMenu(false);
-                }} />
+                <AiOutlineClose className={styles.overlayClose} onClick={() => { setToggleMenu(false) }} />
                     </div>
                 <ul className={styles.listSmall}>
                     <li className={styles.listItemSmall}><a href="#About">O Nas</a></li>

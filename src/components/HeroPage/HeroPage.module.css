@@ -43,12 +43,16 @@
 .btn{
     
     background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid #F1D7D8;
+    /* border: 1px solid #F1D7D8; */
     transition: 0.45s ease;
     padding: 1rem 3rem;
     font-size: 1.4rem;
     text-decoration: none;
-    color: #F1D7D8;
+
+    color: white;
+    border: 1px solid white;
+
+    /* color: #F1D7D8; */
 }
 
 .btn:hover{

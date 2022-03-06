@@ -7,6 +7,7 @@ import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
 const Galery = (props) => {
 
+
     const scrollRef = React.useRef(null);
 
     const scroll = (direction) => {
@@ -21,13 +22,11 @@ const Galery = (props) => {
 
     const galleryImages = [images.gallery03, images.gallery02, images.gallery01, images.gallery04, images.gallery05, images.gallery06, images.gallery07, images.gallery08];
 
-
-
     return(
         <div id="Gallery" className={styles.gallery}>
             <div className={styles.galleryleft}>
                 <h2>Galeria</h2>
-                <p>Mordo obczaj nasze słodkości</p>
+                <p>Zobacz nasze słodkości</p>
             </div>
             <div className={styles.galleryright}>
                 <div className={styles.galleryright_container} ref={scrollRef}>
@@ -44,7 +43,7 @@ const Galery = (props) => {
             </div>
         </div>
 
-    );
+    )
 
 
 }

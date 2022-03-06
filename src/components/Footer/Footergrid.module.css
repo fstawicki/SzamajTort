@@ -1,24 +1,70 @@
-ul{
+
+i{
+    margin-right: 1rem;
+}
+
+ul, a{
     list-style: none;
+    text-decoration: none;
+
+    font-size: 1.4rem;
+    color: black;
+}
+
+
+
+.info{
+    grid-area: info;
+
+}
+
+.logo{
+    grid-area: logo;
+
+    background-image: url('../../images/logo.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+.links{
+    grid-area: links;
+}
+
+.author{
+    grid-area: author;
+
+    margin-top: 1rem;
+
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 
 .footer{
+    padding: 1rem 0;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas:
+    "info logo links"
+    "author author author";
     background-color: #114127;
 }
 
 .middle{
-    background-image: url('../../images/logo.jpg');
-    
+    background-image: url('../../images/logo.jpg'); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 10%;
+    width: 100%;
 }
+
+
+
+/* 
+
 
 
 .left{
@@ -27,7 +73,6 @@ ul{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
 }
 
 .left p{
@@ -51,7 +96,7 @@ ul{
     margin-right: 1rem;
 }
 
-.left *,
+.left,
 .right *{
     text-decoration: none;
     font-size: 1.1rem;
@@ -86,8 +131,8 @@ ul{
         background-size: contain;
     }
 
-    .left *,
+    .left,
     .right *{
         font-size: 1.3rem;
     }
-}
+} */
