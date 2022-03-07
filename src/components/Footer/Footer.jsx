@@ -1,9 +1,11 @@
 import React from "react";
+import { Fragment } from "react/cjs/react.production.min";
 import styles from './Footer.module.css';
 
 
 const Footer = () =>{
     return(
+        <Fragment>
         <div id="Footer" className={styles.footer}>
             <div className={styles.left}>
                 <ul>
@@ -38,6 +40,10 @@ const Footer = () =>{
             
             </div>
         </div>
+        <div className={styles.author}>
+            <p>Website created by Filip Stawicki</p>
+        </div>
+        </Fragment>
     )
 }
 

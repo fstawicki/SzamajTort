@@ -7,8 +7,8 @@ ul{
     width: 100%;
     display: flex;
     justify-content: space-around;
-
     background-color: #114127;
+    padding-top: 1rem;
 }
 
 .middle{
@@ -57,8 +57,18 @@ ul{
     font-size: 1.1rem;
     padding-top: 0.3rem;
     color: #edd1cf;
+}
+
+.author{
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #edd1cf;
+    background-color: #114127;
+    padding: 2rem 0;
 
 }
+
 
 @media (max-width: 1600px){
 
@@ -78,6 +88,10 @@ ul{
     .middle,
     .right{
         width: 100%;
+    }
+
+    .middle,
+    .right{
         margin-top: 2rem;
     }
 
@@ -87,7 +101,8 @@ ul{
     }
 
     .left *,
-    .right *{
+    .right *,
+    .author{
         font-size: 1.3rem;
     }
 }
