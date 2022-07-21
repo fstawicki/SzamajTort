@@ -16,12 +16,6 @@ const Navbar = (props) => {
             setToggleNews(true);
         }, 1200);
     },[])
-
-    // while(toggleNews === true){
-        
-    //     document.getElementById('Body').style.overflow = 'hidden';
-    
-    // }
     
 
     return(

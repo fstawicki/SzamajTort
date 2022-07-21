@@ -31,8 +31,8 @@
     background-size: contain;
     background-position: center;
     
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 }
 
 .btnDiv{
@@ -45,7 +45,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     /* border: 1px solid #F1D7D8; */
     transition: 0.45s ease;
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
     font-size: 1.4rem;
     text-decoration: none;
 
@@ -67,6 +67,11 @@
 
 @media (max-width: 1023px){
 
+    .heroBannerImg{
+        height: 250px;
+        width: 250px;
+    }
+
     .btnDiv{
         margin-top: 6rem;
       justify-content: center;
@@ -74,22 +79,17 @@
     
 
 .btn{
-    padding: 2rem 4rem;
-    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
 }
 
 } 
 
 @media (max-width: 600px){
 
-    .heroBannerImg{
-        width: 250px;
-        height: 250px;
-    }
     
     .btn{
-        padding: 1.2rem 2.5rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .btnDiv{
@@ -106,7 +106,7 @@
     }
     
     .btn{
-        padding: 1rem 2rem;
+        padding: 1rem 1.7rem;
         font-size: 1rem;
     }
 
