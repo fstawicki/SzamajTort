@@ -7,9 +7,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Order from "./components/Order/Order";
 import "./styleApp.css";
 
-
-
-
 function App() {
   return (
     <div className="App">

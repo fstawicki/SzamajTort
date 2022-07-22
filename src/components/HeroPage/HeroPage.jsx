@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-scroll";
+
 import styles from "./HeroPage.module.css"
 
 const HeroPage = (props) => {
@@ -10,7 +12,17 @@ const HeroPage = (props) => {
                 <div className={styles.heroBanner}>
                     <div className={styles.heroBannerImg}></div>
                     <div className={styles.btnDiv}>
-                    <a className={styles.btn} href="#About">POZNAJ NAS</a>
+                    <Link 
+                        className={styles.btn} 
+                        activeClass="linkactiveclass" 
+                        to="About" 
+                        spy={true} 
+                        smooth={true} 
+                        offset={-70} 
+                        duration={500}
+                    >
+                        POZNAJ NAS
+                    </Link>
                     </div>
                 </div>
             </div>
