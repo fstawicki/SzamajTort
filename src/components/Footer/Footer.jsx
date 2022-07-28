@@ -20,19 +20,19 @@ const Footer = () =>{
             <div className={styles.right}>
                 <ul>
                     <li>
-                        <i class="fas fa-envelope"></i>szamajtort@gmail.com
+                        <i className="fas fa-envelope"></i>szamajtort@gmail.com
                     </li>
             <li>
-                <i class="fas fa-phone"></i>660 387 232
+                <i className="fas fa-phone"></i>660 387 232
             </li>
             <li>
                 <a href="https://www.facebook.com/szamajtort">
-                    <i class="fab fa-facebook"></i>Facebook
+                    <i className="fab fa-facebook"></i>Facebook
                 </a>
             </li>
             <li>
                 <a href="https://www.instagram.com/szamajtort/?fbclid=IwAR2kd1Xi57Ud9JnKAtd8VmOI6UUmz9G3rrAIGzdZlggRS70EaHI6Yc8bjEg">
-                    <i class="fab fa-instagram-square"></i>Instagram
+                    <i className="fab fa-instagram-square"></i>Instagram
                 </a>
             </li>
         </ul>
