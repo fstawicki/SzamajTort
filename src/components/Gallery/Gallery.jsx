@@ -5,9 +5,6 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 import styles from './Gallery.module.css';
 
-import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
-
-
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -27,19 +24,6 @@ import gallery08 from '../../images/gallery08.jpg';
 
 
 const Galery = (props) => {
-
-
-    // const scrollRef = React.useRef(null);
-
-    // const scroll = (direction) => {
-    //     const { current } = scrollRef;
-
-    //     if(direction === 'left'){
-    //         current.scrollLeft -= 325;
-    //     }else{
-    //         current.scrollLeft += 325;
-    //     }
-    // }
 
     const galleryImages = [
         gallery01, gallery02, gallery03, gallery04, gallery05, gallery06, gallery07, gallery08
@@ -61,7 +45,7 @@ const Galery = (props) => {
                 scrollbar={{ draggable: true }}
             >
                 {galleryImages.map((image) => {
-                        return <SwiperSlide style={{ backgroundImage: `url(${image})` }}></SwiperSlide>;
+                        return <SwiperSlide key={`${image}`} style={{ backgroundImage: `url(${image})` }}></SwiperSlide>;
                     })
                 }
             </Swiper>
