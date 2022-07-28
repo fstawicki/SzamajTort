@@ -37,15 +37,15 @@ const Galery = (props) => {
             </div>
             <div className={styles.galleryright}>
             <Swiper
+                className={styles.swiper}
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={50}
-                slidesPerView={3}
+                spaceBetween={15}
+                slidesPerView={2}
                 navigation
                 pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
             >
                 {galleryImages.map((image) => {
-                        return <SwiperSlide key={`${image}`} style={{ backgroundImage: `url(${image})` }}></SwiperSlide>;
+                        return <SwiperSlide className={styles.swiperSlide} key={`${image}`} style={{ backgroundImage: `url(${image})` }}></SwiperSlide>;
                     })
                 }
             </Swiper>
