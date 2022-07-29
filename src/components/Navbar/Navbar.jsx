@@ -39,11 +39,17 @@ const Navbar = (props) => {
                 <AiOutlineClose className={styles.overlayClose} onClick={() => { setToggleMenu(false) }} />
                     </div>
                 <ul className={styles.listSmall}>
-                    <li className={styles.listItemSmall}><a href="#About">O Nas</a></li>
-                    <li className={styles.listItemSmall}><a href="#Gallery">Galeria</a></li>
-                    <li className={styles.listItemSmall}><a href="#Contact">Kontakt</a></li>
-                    <li className={styles.listItemSmallLast}>
-                    <a href="https://forms.gle/3B1aczqwx2XDw6mw7">ZŁÓŻ ZAMÓWIENIE</a>
+                    <li className={styles.listItemSmall}>
+                        <Link onClick={() => {setToggleMenu(false)}} activeClass="linkactiveclass" to="About" spy={true} smooth={true} offset={-70} duration={500}>O Nas</Link>
+                    </li>
+                    <li className={styles.listItemSmall}>
+                        <Link onClick={() => {setToggleMenu(false)}} activeClass="linkactiveclass" to="Gallery" spy={true} smooth={true} offset={-70} duration={500}>Galeria</Link>
+                    </li>
+                    <li className={styles.listItemSmall} >
+                        <Link onClick={() => {setToggleMenu(false)}} activeClass="linkactiveclass" to="Contact" spy={true} smooth={true} offset={-70} duration={500}>Kontakt</Link>
+                    </li>
+                    <li className={styles.listItemSmall} onClick={() => {setToggleMenu(false)}}>
+                        <Link onClick={() => {setToggleMenu(false)}} activeClass="linkactiveclass" to="#" spy={true} smooth={true} offset={-70} duration={500}>ZŁÓŻ ZAMÓWIENIE</Link>
                     </li>
                 </ul>
                 </div>
